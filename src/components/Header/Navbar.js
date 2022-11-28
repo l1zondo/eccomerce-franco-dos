@@ -30,7 +30,7 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <Link to="/">
-                <h1>React</h1>
+                <h1>Sovo</h1>
             </Link>
             <ul>
                 {categories.map((cat) => (
