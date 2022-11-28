@@ -17,10 +17,7 @@ const Ejemplo = () => {
     return (
         <div>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-                quas consectetur saepe hic cum itaque blanditiis officiis nulla
-                ratione asperiores possimus quia, magni eaque nostrum molestiae
-                est fugiat? Porro, esse.
+        
             </p>
         </div>
     );
