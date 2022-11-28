@@ -38,15 +38,3 @@ const ItemCount = ({ stock, initial = 1, prueba }) => {
 };
 
 export default ItemCount;
-
-const foo = (a,b) =>{
-
-}
-
-foo(10,20)
-
-const Foo = (a,b) =>{
-
-}
-
-foo(10,20)

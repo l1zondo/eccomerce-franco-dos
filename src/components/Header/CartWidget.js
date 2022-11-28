@@ -10,7 +10,6 @@ const CartWidget = () => {
     return (
         <div className="widget-container">
             <AiOutlineShoppingCart size={20} />
-            {/* algún condicional para que si la cantidad es 0 no me muestre el número */}
             <span>{total}</span>
         </div>
     );
