@@ -57,14 +57,15 @@ Esta es la primera página a la que el usuario accede cuando ingresa al sitio. L
 
 
 ### Página detalle del producto
-Muestra el detalle del producto que ha sido seleccionado previamente por el usuario, ya sea desde el Home o desde alguna de las categorías. A través de esta vista el usuario accede a una información más detallada del producto, como puede ser: nombre, descripción, precio, etc. A su vez posibilita que el usuario pueda agregar el ítem al carrito de compras, seleccionando la cantidad deseada y luego clickeando el botón correspondiente. <br/><br/>*NOTA IMPORTANTE: Si el producto visualizado por el usuario hubiera sido previamente agregado al carrito, en el apartado de cantidad de esta vista se va a mostrar la última cantidad selectada, pudiendo la misma ser modificada.*
+Muestra el detalle del producto que ha sido seleccionado previamente por el usuario, ya sea desde el Home o desde alguna de las categorías. A través de esta vista el usuario accede a una información más detallada del producto, como puede ser: nombre, descripción, precio, etc. A su vez posibilita que el usuario pueda agregar el ítem al carrito de compras, seleccionando la cantidad deseada y luego clickeando el botón correspondiente.
+<br/>
 <br/>
 
 ![](./public/readmedoc/detalle.png)
 
 
 ### Página carrito de compras
-Muestra la información del producto o productos que el usuario ha añadido para la compra, junto con su cantidad, subtotal y total correspondiente. En caso de desearlo, el usuario puede remover los ítems que desee de forma individual (botón en forma de equis (x) que aparece junto a cada producto), o remover la totalidad de los mismos mediante el botón rojo que aparece en la parte superior derecha. Por último, y para seguir con el proceso de compra, en la parte inferior derecha se exhibe el botón que lleva al checkout.
+Muestra la información del producto o productos que el usuario ha añadido para la compra, junto con su cantidad, subtotal y total correspondiente. En caso de desearlo, el usuario puede remover los ítems que desee de forma individual (botón en forma de tacho de basura que aparece junto a cada producto) Por último, y para seguir con el proceso de compra, en la parte inferior izquierda se exhibe el botón que lleva al checkout.
 <br/>
 <br/>
 ![](./public/readmedoc/carrito.png)
@@ -72,7 +73,7 @@ Muestra la información del producto o productos que el usuario ha añadido para
 
 
 ### Página de checkout
-Muestra el formulario que ha de completarse para finalizar el proceso de compra. Todos los campos son necesarios.
+Muestra un simple formulario que ha de completarse para finalizar el proceso de compra.
 
 <br/>
 
