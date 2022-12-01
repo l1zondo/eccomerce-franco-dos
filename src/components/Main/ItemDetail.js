@@ -23,9 +23,9 @@ const ItemDetail = ({ item }) => {
     return (
         <div className="container-detail">
             <ToastContainer />
-            <img src={item.img} alt="" />
+            <img src={item.imagen} alt="" />
             <div>
-                <h2>{item.title}</h2>
+                <h2>{item.titulo}</h2>
                 <p>
                 </p>
 

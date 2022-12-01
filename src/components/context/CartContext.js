@@ -5,6 +5,8 @@ export const CartContext = createContext();
 const Provider = ({ children }) => {
     const [cart, setCart] = useState([]);
 
+    const cartTotal = cart.reduce((acc,product) => acc + (product.cantidad * product.precio), 0);
+
     const addToCart = (item, cantidad) => {
         const producto = { ...item, cantidad };
         if (isInCart(producto.id)) {
@@ -67,6 +69,7 @@ const Provider = ({ children }) => {
                 deleteAll,
                 deleteOne,
                 getProductQuantity,
+                cartTotal,
             }}
         >
             {children}
