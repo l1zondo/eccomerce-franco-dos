@@ -9,7 +9,7 @@ import {
     writeBatch,
 } from 'firebase/firestore';
 import { useContext, useState } from 'react';
-import { CartContext } from '../../context/CartContext';
+import { CartContext } from '../context/CartContext';
 import { db } from '../../services/firebaseConfig';
 
 const Form = () => {
